@@ -5,10 +5,10 @@ import Maincontent from "./Maincontent";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Maincontent />
-    </div>
+    </>
   );
 }
 

@@ -6,35 +6,32 @@ import stateImg from "./assets/state-mgmt.png";
 export const CORE_CONCEPTS = [
   {
     image: componentsImg,
-    title: "Components",
-    description:
-      "The core UI building block - compose the user interface by combining multiple components.",
+    title: "Education",
+    description: "Bachelor of Computer Science and Engineering",
   },
   {
     image: jsxImg,
-    title: "JSX",
-    description:
-      "Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.",
+    title: "Career",
+    description: "ex-Accenture | ex-Cognizant",
   },
   {
     image: propsImg,
-    title: "Props",
+    title: "Skills",
     description:
-      "Make components configurable (and therefore reusable) by passing input data to them.",
+      "Technology lead,Solution Architect - Cloud, Web and Mobile Fullstack development",
   },
-  {
-    image: stateImg,
+  /*{
+     image: stateImg,
     title: "State",
     description:
       "React-managed data which, when changed, causes the component to re-render & the UI to update.",
-  },
+  }, */
 ];
 
 export const EXAMPLES = {
   Books: {
     title: "Books",
-    description:
-      "Favorite books TBD:call google books api",
+    description: "Favorite books TBD:call google books api",
     code: `
 function Welcome() {
   return <h1>Hello, World!</h1>;
